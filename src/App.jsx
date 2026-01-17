@@ -7,11 +7,11 @@ export default function Portfolio() {
   const skills = [
     { name: 'Web Development', icon: <Code size={24} />, desc: 'Building modern, responsive web applications with React.js, Next.js, and full-stack technologies.' },
     { name: 'Mobile Development', icon: <Code size={24} />, desc: 'Cross-platform mobile apps using React Native, Flutter, and native Android development.' },
-    { name: 'Desktop Applications', icon: <Code size={24} />, desc: 'JavaFX desktop applications, Electron apps, and enterprise software solutions.' },
+    { name: 'Desktop Applications', icon: <Code size={24} />, desc: 'JAva & JavaFX desktop applications, Electron apps, and enterprise software solutions.' },
     { name: 'Network Design', icon: <Globe size={24} />, desc: 'Designing and implementing LAN/WAN networks, VLANs, and network topology.' },
     { name: 'Cisco Technologies', icon: <Server size={24} />, desc: 'Configuring routers, switches, and implementing Cisco networking solutions.' },
     { name: 'Network Security', icon: <Database size={24} />, desc: 'Implementing firewalls, VPNs, intrusion detection, and security protocols.' },
-    { name: 'Backend Development', icon: <Server size={24} />, desc: 'Node.js, Java, Python, PHP for scalable server-side applications and APIs.' },
+    { name: 'Backend Development', icon: <Server size={24} />, desc: 'Node.js, Java, PHP for scalable server-side applications and APIs.' },
     { name: 'Database Systems', icon: <Database size={24} />, desc: 'MySQL, PostgreSQL, Firebase, MongoDB, and Supabase for data management.' },
   ];
 
@@ -26,7 +26,7 @@ export default function Portfolio() {
     {
       title: 'Mentora AI Learning Platform',
       description: 'AI-powered web platform for guided learning with personalized study paths and intelligent recommendations.',
-      tech: ['React.js', 'Node.js', 'Firebase'],
+      tech: ['React.js', 'Node.js', 'supabase'],
       link: '#',
       category: 'Web'
     },
@@ -40,7 +40,7 @@ export default function Portfolio() {
     {
       title: 'Mobile Learning App',
       description: 'Cross-platform mobile application for on-the-go learning with offline support and progress tracking.',
-      tech: ['React Native', 'Firebase', 'Redux'],
+      tech: ['React Native', 'Firebase'],
       link: '#',
       category: 'Mobile'
     },
@@ -647,16 +647,16 @@ export default function Portfolio() {
           <div className="hero-left">
             <p className="welcome">WELCOME TO MY WORLD</p>
             <h1 className="hero-title">
-              Hi, I'm <span className="hero-name">Daniel Nyirenda</span>
+              Hi, I'm <span className="hero-name">Daniel Jadon Nyirenda</span>
               <br />
-              <span className="hero-subtitle">a Professional Developer.</span>
+              <span className="hero-subtitle">a software & Network Engineer.</span>
             </h1>
             <p className="hero-desc">
               I use technology as a tool to build exceptional digital experiences across all platforms. 
               As a Software and Network Engineer, I specialize in web development (React.js, Next.js), 
-              mobile applications (React Native, Flutter), desktop software (JavaFX, Electron), 
+              mobile applications (React Native, Flutter), desktop software (Java, JavaFX), 
               and enterprise network infrastructure. From building cross-platform apps to designing 
-              secure networks with Cisco technologies, I create comprehensive solutions that work everywhere.
+              secure networks with Cisco technologies.
             </p>
             
             <div className="hero-bottom">
